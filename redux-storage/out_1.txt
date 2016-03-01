@@ -1,0 +1,7 @@
+before1: [1, 2, 3]
+before2: null
+> [13:54:46] [Dispatching] {"type":"REDUX_STORAGE_LOAD","payload":{}}
+> [13:54:46] [Store] {"myReducer":{"arr":[1,2,3]}}
+Loaded state: undefined
+after1: [1, 2, 3]
+after2: null

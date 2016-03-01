@@ -1,0 +1,7 @@
+before1: [1, 2, 3]
+before2: {"myReducer":{"arr":[5]}}
+> [13:55:39] [Dispatching] {"type":"REDUX_STORAGE_LOAD","payload":{"myReducer":{"arr":[5]}}}
+> [13:55:39] [Store] {"myReducer":{"arr":[5,2,3]}}
+Loaded state: [5]
+after1: [5, 2, 3]
+after2: {"myReducer":{"arr":[5]}}
